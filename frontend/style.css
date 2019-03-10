@@ -1,0 +1,51 @@
+body{
+    min-height: 100vh;
+}
+
+.third-width{
+    width: 33%;
+    vertical-align: middle;
+}
+
+.section{
+    text-align: center;
+}
+
+.control.is-fullwidth {
+    width: 25%;
+}
+
+@media screen and (max-width:767px){
+    .control.is-fullwidth {
+        width: 100%;
+    }
+    
+    html {
+        font-size: calc(12px + 6 * ((100vw - 0px) / 767));
+    }
+}
+
+.is-nosidepadding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#disclaimer{
+    display: none;
+}
+
+table{
+    table-layout: fixed;
+}
+
+.table thead{
+    background-color:#209cee;
+}
+
+.table thead th{
+    color:white;
+}
+
+#res-table{
+    display: none;
+}

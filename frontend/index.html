@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NIM Finder ITB Angkatan 2015-2018. Last Updated 10/03/2019">
+    <meta name="keywords" content="NIM, ITB, NIM Finder, 2019, Terbaru">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nim Finder ITB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
+      <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="https://wirasuta.com">
+              <img src="../img/W.png" alt="wirasuta.com" width="70" height="28">
+            </a>
+            <a href="#" class="navbar-item">
+                NIM Finder ITB
+            </a>
+          </div>
+      </div>
+    </nav>
+    <section class="section">
+            <div class="container">
+                <div>
+                    <div class="field has-addons">
+                        <div class="control is-fullwidth">
+                            <input class="input" id="searchinput" type="text" placeholder="Cari NIM/Nama/Jurusan">
+                        </div>
+                        <div class="control">
+                            <a class="button is-info" id="searchbutton">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section is-nosidepadding">
+                    <table class="table is-fullwidth is-striped is-bordered" id="res-table">
+                        <thead>
+                            <tr>
+                                <th class="third-width">Nama</th>
+                                <th class="third-width">Jurusan</th>
+                                <th class="third-width">NIM</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resbody">
+                            
+                        </tbody>
+                    </table>
+                    <span id="disclaimer">Hasil dibatasi sebanyak 100 rows<br>Silahkan memasukkan search term yang lebih spesifik jika anda tidak menemukan apa yang anda cari</span>
+                </div>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
